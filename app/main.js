@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Editor from './Editor.jsx';
 
 ReactDOM.render(
-    <h1>Hello, world!</h1>,
+    <Editor id="content" height="200"/>,
     document.getElementById('root')
   );
